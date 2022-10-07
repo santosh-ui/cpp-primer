@@ -1,4 +1,4 @@
-// Reading an unknown number of inputs
+/* // Reading an unknown number of inputs
 #include<iostream>
 int main() {
 	int sum = 0, value = 0; // declare and initialize the variables
@@ -9,6 +9,11 @@ int main() {
 	}
 	std::cout << "The sum is:" << sum << std::endl; // output the sum
 	return 0;
-}
+	// An istream becomes invalid when we hit end-of-file or encounter
+	// an invalid input, such as reading a value that is not an integer
+} */
+
+
+
 
 
