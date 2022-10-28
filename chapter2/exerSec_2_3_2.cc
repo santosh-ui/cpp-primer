@@ -52,8 +52,16 @@ int main(){
 	// In the above code, p1 is a pointer to ival which is dereferenced to change the 
 	// value of ival to its square (ival * ival) 
 	
-	// exercise 2.21
+	// exercise 2.24
 	
+	int i2 = 1000;
+	int *p2 = &i2;
+//	long *lp = &i2;
+	std::cout << "i2 = " << i2 <<
+		" *p2 = " << *p2 <<
+		// " *lp = " << *lp << 
+		// cannot convert "int*" to "long int*" in initialization
+		std::endl;	
 
 	return 0;
 }
