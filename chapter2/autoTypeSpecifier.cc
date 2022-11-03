@@ -42,6 +42,7 @@ int main(){
 	a = 42; // ok: a is an int
 	b = 42; // ok: b is an int
 	c = 42; // ok: c is an int
+	std::cout << "a = " << a << " b = " << b << " c = " << c << std::endl;
 //	d = 42; // error: d is an int* and can't point to a literal
 //	e = 42; // error: e is a const int* and can't point to a literal
 //	g = 42; // error: g is a const int& and can't assign a literal to a 
