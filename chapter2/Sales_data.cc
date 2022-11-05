@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-#include "Sales_data.h"
+// #include "Sales_data.h"
 /* 
  * struct Sales_data{
  * '/'* ...*'/'
@@ -10,7 +10,12 @@
 // equivalent, but better way to define the objects
 // struct Sales_data{}
 // error: expected semicolon after struct definition
-// struct Sales_data{};
+// exSec 2.6.2 ex 2.41
+struct Sales_data{
+	std::string bookNo;
+	unsigned units_sold = 0;
+	double revenue = 0;
+};
 // Sales_data accum, trans, *salesptr;
 int main(){
 	Sales_data data1, data2;
